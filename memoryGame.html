@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.16/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='memoryGame.css'>
+    <title>Eligant Memory Game</title>
+</head>
+<body>
+       
+    <main>
+        <nav class=info-con>
+
+            <div class=name >
+                Hello
+                <span>Unkown</span> 🥳🎉
+            </div>
+
+            <h3 class="logo">Memory Game</h3>
+
+            <div class="end-side">
+
+                <button class="button-55 level" role="button">Eesy?!</button>
+
+                <div class="tries">
+                    Matched Blocks:
+                    <span>0</spa>
+                </div>
+            </div>
+            
+        </nav>
+
+        <div class=memory-game-con></div>
+   </main>
+
+    <audio id="success" src="soundes/success.mp3" preload="auto" ></audio>
+    <audio id="fail" src="soundes/failure.mp3" preload="auto"></audio>
+    <audio id="win" src="soundes/win.mp3" preload="auto"></audio>
+    <audio id="flip" src="soundes/flip.mp3" preload="auto"></audio>
+
+
+   <script src='script.js'></script>
+
+</body>
+</html>
